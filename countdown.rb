@@ -12,4 +12,4 @@ def countdown(counter)
   end
 end
 
-def countdown_withS
+def countdown_with_sleep
