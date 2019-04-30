@@ -12,4 +12,14 @@ def countdown(counter)
   end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(count)
+  count = count + 5
+  while counter > 0
+    puts "#{count} SECOND(S)!"
+    counter -= 1
+  end
+  
+  if counter == 0
+    return "HAPPY NEW YEAR!"
+  end
+end
