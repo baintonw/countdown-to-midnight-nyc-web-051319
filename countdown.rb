@@ -12,3 +12,4 @@ def countdown(counter)
   end
 end
 
+def countdown_withS
